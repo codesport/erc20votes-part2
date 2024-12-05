@@ -58,9 +58,11 @@ There are backend and frontend variables.  For frontend, prefix with:  NEXT_PUBL
 > [Next.js Docs]( https://nextjs.org/docs/pages/building-your-application/configuring/environment-variables#bundling-environment-variables-for-the-browser)
 
 
-Environment vars can be stacked.  Reference previous declarations with `$`
+Environment vars can be stacked liked so:
 
-echo $TEST_THEN_DELETE  # output:  I love pizza73923
+ `$export TEST_THEN_DELETE=https://opt-sepolia.g.alchemy.com/v2/$ALCHEMY_API_KEY`
+
+`echo $TEST_THEN_DELETE  # output =  https://opt-sepolia.g.alchemy.com/v2/aFFGTy3827SGahHH`
 
 
 ## 2 Viem "Under the Hood" 
