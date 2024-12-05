@@ -60,11 +60,11 @@ There are backend and frontend variables.  For frontend, prefix with:  NEXT_PUBL
 
 Environment variables may be chained liked so:
 
-`$export TEST_THEN_DELETE=https://opt-sepolia.g.alchemy.com/v2/$ALCHEMY_API_KEY`
+`export TEST_THEN_DELETE=https://opt-sepolia.g.alchemy.com/v2/$ALCHEMY_API_KEY`
 
-Let's echo the chained variable:
+Now, echo the chained variable:
 
-`echo $TEST_THEN_DELETE  
+`echo $TEST_THEN_DELETE`  
 
 This is the output:
 
